@@ -1,6 +1,6 @@
 # use the latest node LTS release
 FROM node:gallium
-WORKDIR /usr/src/app
+WORKDIR /usr/src/home-finders-be
 
 # copy package.json and package-lock.json and install packages. we do this
 # separate from the application code to better use docker's caching
